@@ -8,7 +8,7 @@ function isAlphaNumeric($s){
 }
 
 function connectDB() {
-	$conn = new mysqli("localhost", "biltagne", "melo93809571", "biltagne_qq");
+	$conn = new mysqli("localhost", "biltagne", ":D", ":D");
 	return $conn;
 }
 
